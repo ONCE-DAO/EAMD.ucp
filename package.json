@@ -2,8 +2,9 @@
   "name": "eamd.ucp",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/2_systems/Once.class.js",
+  "main": "./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs",
   "scripts": {
+    "start": "node --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles"
   },
   "repository": {
