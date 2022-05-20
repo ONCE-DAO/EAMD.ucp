@@ -1,0 +1,28 @@
+[submodule "once.ts@main"]
+	path = Components/tla/EAM/Once/dev/once.ts@main
+	url = https://github.com/phibar-once/once.ts.git
+	branch = main
+[submodule "once.browser@main"]
+	path = Components/tla/EAM/Once.Browser/dev/once.browser@main
+	url = https://github.com/phibar-once/once.browser.git
+	branch = main
+[submodule "once.modules@main"]
+	path = Components/tla/EAM/Once.Modules/dev/once.modules@main
+	url = https://github.com/phibar-once/once.modules.git
+	branch = main
+[submodule "once.transpile@main"]
+	path = Components/tla/EAM/Once.Transpile/dev/once.transpile@main
+	url = https://github.com/phibar-once/once.transpile.git
+	branch = main
+[submodule "once.cli@main"]
+	path = Components/tla/EAM/Once.Cli/dev/once.cli@main
+	url = https://github.com/phibar-once/once.cli.git
+	branch = main
+[submodule "once.server@main"]
+	path = Components/tla/EAM/Once.Server/dev/once.server@main
+	url = https://github.com/phibar-once/once.server.git
+	branch = main
+[submodule "once.build@main"]
+	path = Components/tla/EAM/Once.Build/dev/once.build@main
+	url = https://github.com/phibar-once/once.build.git
+	branch = main
