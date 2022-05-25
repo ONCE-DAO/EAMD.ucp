@@ -26,3 +26,7 @@
 	path = Components/tla/EAM/Once.Build/dev/once.build@main
 	url = https://github.com/phibar-once/once.build.git
 	branch = main
+[submodule "once.loader@main"]
+	path = Components/tla/EAM/Once.Loader/dev/once.loader@main
+	url = https://github.com/phibar-once/once.loader.git
+	branch = main
