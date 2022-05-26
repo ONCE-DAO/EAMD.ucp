@@ -31,6 +31,8 @@
                 "--experimental-vm-modules",
                 "--inspect-brk",
                 "${workspaceRoot}/node_modules/.bin/jest",
+                // Change for Windows
+                // "${workspaceRoot}/node_modules/jest/bin/jest.js",
                 "--runInBand",
                 "--watchAll=false",
             ],
