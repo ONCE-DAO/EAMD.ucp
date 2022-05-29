@@ -30,3 +30,7 @@
 	path = Components/tla/EAM/Once.Loader/dev/once.loader@main
 	url = https://github.com/phibar-once/once.loader.git
 	branch = main
+[submodule "thinglish@main"]
+	path = Components/tla/EAM/Thinglish/dev/thinglish@main
+	url = https://github.com/phibar-once/thinglish.git
+	branch = main
