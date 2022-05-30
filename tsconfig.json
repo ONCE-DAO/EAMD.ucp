@@ -92,9 +92,21 @@
     "skipDefaultLibCheck": true, /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
-  "include": ["./jest.config.ts"],
+  "include": [
+    "./jest.config.ts"
+  ],
   "exclude": [
     "test",
     "node_modules"
   ]
+  // ,
+  // "ts-node": {
+  //   "transpileOnly": true,
+  //   "moduleTypes": {
+  //     "**/*": "mjs",
+  //     "webpack.config.ts": "cjs",
+  //     // Globs are also supported with the same behavior as tsconfig "include"
+  //     "webpack-config-scripts/**/*": "cjs"
+  //   }
+  // },
 }
