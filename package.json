@@ -5,6 +5,7 @@
   "main": "./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs",
   "type": "module",
   "scripts": {
+    "prepare": "git submodule update --init --recursive",
     "dev": "nodemon --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "start": "node --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
