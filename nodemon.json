@@ -1,0 +1,7 @@
+{
+    "watch": "./Components",
+    "ignore": [
+        "dev/*"
+    ],
+    "delay": "2000ms"
+}

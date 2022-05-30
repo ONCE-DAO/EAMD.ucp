@@ -5,7 +5,7 @@
   "main": "./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs",
   "type": "module",
   "scripts": {
-    "debug": "node --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
+    "dev": "nodemon --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "start": "node --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
     "build": "npx ts-node ./Components/tla/EAM/Once.Build/dev/once.build@main/src/1_infrastructure/Build.script.mts",
@@ -30,6 +30,7 @@
     "cross-env": "^7.0.3",
     "jest": "^28.1.0",
     "lerna": "^4.0.0",
+    "nodemon": "^2.0.16",
     "ts-jest": "^28.0.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
