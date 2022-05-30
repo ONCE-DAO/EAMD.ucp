@@ -2,10 +2,6 @@
 	path = Components/tla/EAM/Thinglish/dev/thinglish@main
 	url = https://github.com/phibar-once/thinglish.git
 	branch = main
-[submodule "once.modules@main"]
-	path = Components/tla/EAM/Once.Modules/dev/once.modules@main
-	url = https://github.com/phibar-once/once-modules.git
-	branch = main
 [submodule "once.ts@main"]
 	path = Components/tla/EAM/Once/dev/once.ts@main
 	url = https://github.com/phibar-once/once.ts.git
