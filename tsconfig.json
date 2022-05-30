@@ -99,14 +99,4 @@
     "**/test/**/*",
     "node_modules"
   ]
-  // ,
-  // "ts-node": {
-  //   "transpileOnly": true,
-  //   "moduleTypes": {
-  //     "**/*": "mjs",
-  //     "webpack.config.ts": "cjs",
-  //     // Globs are also supported with the same behavior as tsconfig "include"
-  //     "webpack-config-scripts/**/*": "cjs"
-  //   }
-  // },
 }
