@@ -96,7 +96,7 @@
     "./jest.config.ts"
   ],
   "exclude": [
-    "test",
+    "**/test/**/*",
     "node_modules"
   ]
   // ,
