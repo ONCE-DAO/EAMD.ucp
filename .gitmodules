@@ -2,6 +2,10 @@
 	path = Components/tla/EAM/Thinglish/dev/thinglish@main
 	url = https://github.com/phibar-once/thinglish.git
 	branch = main
+[submodule "once.modules@main"]
+	path = Components/tla/EAM/Once.Modules/dev/once.modules@main
+	url = https://github.com/phibar-once/once-modules.git
+	branch = main
 [submodule "once.ts@main"]
 	path = Components/tla/EAM/Once/dev/once.ts@main
 	url = https://github.com/phibar-once/once.ts.git
@@ -14,7 +18,6 @@
 	path = Components/tla/EAM/Once.Browser/dev/once.browser@main
 	url = https://github.com/phibar-once/once.browser.git
 	branch = main
-
 [submodule "once.cli@main"]
 	path = Components/tla/EAM/Once.Cli/dev/once.cli@main
 	url = https://github.com/phibar-once/once.cli.git
@@ -26,9 +29,4 @@
 [submodule "once.loader@main"]
 	path = Components/tla/EAM/Once.Loader/dev/once.loader@main
 	url = https://github.com/phibar-once/once.loader.git
-	branch = main
-
-[submodule "once.modules@main"]
-	path = Components/tla/EAM/Once.Modules/dev/once.modules@main
-	url = https://github.com/phibar-once/once-modules.git
 	branch = main
