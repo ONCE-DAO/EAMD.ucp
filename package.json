@@ -10,8 +10,7 @@
     "start": "node --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
     "build": "npx ts-node --esm Components/tla/EAM/Once.Modules/dev/once.modules@main/src/1_infrastructure/Build.script.mts",
-    "watch": "cross-env WATCH=true npx ts-node ./Components/tla/EAM/Once.Build/dev/once.build@main/src/1_infrastructure/Build.script.mts",
-    "build:from-dist": "node ./Components/tla/EAM/Once.Build/dist/once.build/main/1_infrastructure/Build.script.mjs"
+    "watch": "cross-env WATCH=true npx ts-node --esm Components/tla/EAM/Once.Modules/dev/once.modules@main/src/1_infrastructure/Build.script.mts"
   },
   "repository": {
     "type": "git",
