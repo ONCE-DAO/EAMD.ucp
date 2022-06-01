@@ -30,7 +30,6 @@
 	path = Components/tla/EAM/Once/dev/once.loader@main
 	url = https://github.com/phibar-once/once.loader.git
 	branch = main
-
 [submodule "once.merge@main"]
 	path = Components/tla/EAM/Once/dev/once.merge
 	url = https://github.com/phibar-once/once.merge.git
