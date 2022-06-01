@@ -27,6 +27,10 @@
             "name": "vscode-jest-tests.v2",
             "type": "node",
             "request": "launch",
+            "preLaunchTask": {
+                "type": "npm",
+                "script": "jest:clearCache"
+            },
             "runtimeArgs": [
                 "--experimental-vm-modules",
                 "--inspect-brk",
