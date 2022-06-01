@@ -8,7 +8,8 @@
     "prepare": "npx ts-node-esm Components/tla/EAM/Once/dev/once.modules@main/src/1_infrastructure/Prepare.script.mts",
     "dev": "nodemon --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "start": "node --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
-    "test": "jest --clearCache && cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
+    "cleanTest": "jest --clearCache && cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
     "build": "npx ts-node-esm Components/tla/EAM/Once/dev/once.modules@main/src/1_infrastructure/Build.script.mts",
     "watch": "cross-env WATCH=true npx ts-node-esm Components/tla/EAM/Once/dev/once.modules@main/src/1_infrastructure/Build.script.mts"
   },
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/phibar-once/EAMD.ucp#readme",
   "devDependencies": {
     "@alex_neo/jest-expect-message": "^1.0.5",
+    "@types/jest-expect-message": "^1.0.3",
     "@types/chokidar": "^2.1.3",
     "@types/glob": "^7.2.0",
     "@types/jest": "^27.5.1",
@@ -35,7 +37,7 @@
     "ts-jest": "file:3rdParty/ts-jest",
     "ts-jest-resolver": "^2.0.0",
     "ts-node": "^10.8.0",
-    "typescript": "^4.6.4"
+    "typescript": "4.7.2"
   },
   "dependencies": {
     "chokidar": "^3.5.3",
