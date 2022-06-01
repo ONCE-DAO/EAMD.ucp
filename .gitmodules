@@ -36,3 +36,7 @@
 	url = https://github.com/phibar/ts-jest.git
 	branch = main
 	ignore = true
+[submodule "once.merge@main"]
+	path = Components/tla/EAM/Once/dev/once.merge
+	url = https://github.com/phibar-once/once.merge.git
+	branch = main
