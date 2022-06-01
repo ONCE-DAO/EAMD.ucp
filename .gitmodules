@@ -2,6 +2,10 @@
 	path = Components/tla/EAM/Thinglish/dev/thinglish@main
 	url = https://github.com/phibar-once/thinglish.git
 	branch = main
+[submodule "thinglish.transformer@merge"]
+	path = Components/tla/EAM/Thinglish/dev/thinglish.transformer
+	url = https://github.com/ONCE-DAO/thinglish.transformer.git
+	branch = merge
 [submodule "once.modules@main"]
 	path = Components/tla/EAM/Once.Modules/dev/once.modules@main
 	url = https://github.com/phibar-once/once.modules.git
@@ -9,10 +13,6 @@
 [submodule "once.ts@main"]
 	path = Components/tla/EAM/Once/dev/once.ts@main
 	url = https://github.com/phibar-once/once.ts.git
-	branch = main
-[submodule "once.transpile@main"]
-	path = Components/tla/EAM/Once.Transpile/dev/once.transpile@main
-	url = https://github.com/phibar-once/once.transpile.git
 	branch = main
 [submodule "once.browser@main"]
 	path = Components/tla/EAM/Once.Browser/dev/once.browser@main
@@ -30,3 +30,4 @@
 	path = Components/tla/EAM/Once.Loader/dev/once.loader@main
 	url = https://github.com/phibar-once/once.loader.git
 	branch = main
+
