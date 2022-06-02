@@ -34,10 +34,6 @@
 	path = Components/tla/EAM/Once/dev/once.merge
 	url = https://github.com/phibar-once/once.merge.git
 	branch = main
-[submodule "ts-jest"]
-	path = 3rdParty/ts-jest@main
-	url = https://github.com/phibar/ts-jest.git
-	branch = main
 [submodule "zod"]
 	path = 3rdParty/zod
 	url = https://github.com/colinhacks/zod.git
