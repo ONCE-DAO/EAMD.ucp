@@ -38,3 +38,7 @@
 	path = 3rdParty/zod
 	url = https://github.com/colinhacks/zod.git
 	branch = master
+[submodule "ts-jest"]
+	path = 3rdParty/ts-jest
+	url = https://github.com/phibar/ts-jest.git
+	branch = main
