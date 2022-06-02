@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cleanup_Jest",
+            "command": "npx jest --clearCache",
+            "args": [],
+            "type": "shell"
+        }
+    ],
+}
