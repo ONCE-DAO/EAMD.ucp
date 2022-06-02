@@ -31,7 +31,7 @@
 	url = https://github.com/ONCE-DAO/once.loader.git
 	branch = main
 [submodule "once.merge@main"]
-	path = Components/tla/EAM/Once/dev/once.merge
+	path = Components/tla/EAM/Once/dev/once.merge@main
 	url = https://github.com/ONCE-DAO/once.merge.git
 	branch = main
 [submodule "3rdParty/ts-jest"]
