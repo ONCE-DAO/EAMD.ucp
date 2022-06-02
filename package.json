@@ -10,7 +10,7 @@
     "prepare:submodules": "git submodule update --init --remote --recursive",
     "prepare:reinstall": "npm i -D ./3rdParty/ts-jest && npm i ./3rdParty/zod",
     "prepare:script": "npx ts-node-esm Components/tla/EAM/Once/dev/once.modules@main/src/1_infrastructure/Prepare.script.mts",
-    "prepare": "npm-run-all prepare:clean prepare:submodules prepare:script prepare:reinstall",
+    "prepare": "npm-run-all prepare:clean prepare:submodules prepare:script prepare:reinstall build",
     "dev": "nodemon --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "start": "node --loader ./Components/tla/EAM/Once/dist/once.ts/main/2_systems/Once.class.mjs .",
     "cleanTest": "jest --clearCache && cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
