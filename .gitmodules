@@ -40,3 +40,4 @@
 [submodule "3rdParty/ts-jest"]
 	path = 3rdParty/ts-jest
 	url = https://github.com/phibar/ts-jest
+	branch = main
