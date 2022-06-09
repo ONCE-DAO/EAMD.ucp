@@ -38,3 +38,6 @@
 	path = 3rdParty/ts-jest
 	url = https://github.com/ONCE-DAO/ts-jest.git
 	branch = main
+[submodule "Components/tla/EAM/Thinglish/dev/OnceTSServerPlugin@main"]
+	path = Components/tla/EAM/Thinglish/dev/OnceTSServerPlugin@main
+	url = git@github.com:ONCE-DAO/TSServerPlugin.git
