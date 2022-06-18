@@ -93,7 +93,8 @@
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
     "plugins": [
       {
-        "transform": "./Components/tla/EAM/Thinglish/dist/thinglish.transformer/merge/3_services/transformer.cjs"
+        "transform": "./Components/tla/EAM/Thinglish/dist/thinglish.transformer/merge/3_services/transformer.cjs",
+        "name": "onceTSServerPlugin"
       }
     ]
   },
