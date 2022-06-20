@@ -40,5 +40,5 @@
 	branch = main
 [submodule "Components/tla/EAM/Thinglish/dev/OnceTSServerPlugin@main"]
 	path = Components/tla/EAM/Thinglish/dev/OnceTSServerPlugin@main
-	url = git@github.com:ONCE-DAO/TSServerPlugin.git
+	url = https://github.com/ONCE-DAO/TSServerPlugin.git
 	branch = main
