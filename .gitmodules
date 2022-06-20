@@ -3,7 +3,7 @@
 	url = https://github.com/ONCE-DAO/thinglish.git
 	branch = main
 [submodule "thinglish.transformer@merge"]
-	path = Components/tla/EAM/Thinglish.Transformer/thinglish.transformer@main
+	path = Components/tla/EAM/Thinglish.Transformer/thinglish.transformer@merge
 	url = https://github.com/ONCE-DAO/thinglish.transformer.git
 	branch = merge
 [submodule "once.modules@main"]
@@ -27,7 +27,7 @@
 	url = https://github.com/ONCE-DAO/once.server.git
 	branch = main
 [submodule "once.loader@main"]
-	path = Components/tla/EAM/Once.Loader/once.loader@main/
+	path = Components/tla/EAM/Once.Loader/once.loader@main
 	url = https://github.com/ONCE-DAO/once.loader.git
 	branch = main
 [submodule "once.merge@main"]

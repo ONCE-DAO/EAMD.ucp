@@ -91,12 +91,12 @@
     /* Completeness */
     "skipDefaultLibCheck": true, /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
-    "plugins": [
-      {
-        "transform": "./Components/tla/EAM/Thinglish/dist/thinglish.transformer/merge/3_services/transformer.cjs",
-        "name": "onceTSServerPlugin"
-      }
-    ]
+    // "plugins": [
+    //   {
+    //     "transform": "./Scenarios/localhost/tla/EAM/thinglish.transformer/main/3_services/transformer.cjs",
+    //     "name": "onceTSServerPlugin"
+    //   }
+    // ]
   },
   "include": [
     "jest.config.js"
