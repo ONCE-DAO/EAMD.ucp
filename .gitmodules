@@ -15,7 +15,7 @@
 	url = https://github.com/ONCE-DAO/once.ts.git
 	branch = main
 [submodule "once.browser@main"]
-	path = Components/tla/EAM/Once.Browser/once.browser@main
+	path = Components/tla/EAM/Once/Browser/once.browser@main
 	url = https://github.com/ONCE-DAO/once.browser.git
 	branch = main
 [submodule "once.cli@main"]
