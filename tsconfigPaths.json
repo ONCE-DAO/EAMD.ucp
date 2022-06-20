@@ -3,31 +3,33 @@
     "baseUrl": ".",
     "paths": {
       "ior:esm:/tla.EAM.Thinglish.onceTSServerPlugin[main]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/onceTSServerPlugin/main"
+        "Scenarios/localhost/tla/EAM/Thinglish/onceTSServerPlugin/main/dist/index.js"
       ],
       "ior:esm:/tla.EAM.Thinglish.thinglish[main]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/thinglish/main"
+        "Scenarios/localhost/tla/EAM/Thinglish/thinglish/main/index.js"
       ],
       "ior:esm:/tla.EAM.Thinglish.transformer[merge]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/transformer/merge"
+        "Scenarios/localhost/tla/EAM/Thinglish/transformer/merge/dist/main.js"
       ],
       "ior:esm:/tla.EAM.Once.browser[main]": [
-        "Scenarios/localhost/tla/EAM/Once/browser/main"
+        "Scenarios/localhost/tla/EAM/Once/browser/main/src/OnceServer.mts"
       ],
       "ior:esm:/tla.EAM.Once.loader[main]": [
-        "Scenarios/localhost/tla/EAM/Once/loader/main"
+        "Scenarios/localhost/tla/EAM/Once/loader/main/index.js"
       ],
       "ior:esm:/tla.EAM.Once.merge[main]": [
-        "Scenarios/localhost/tla/EAM/Once/merge/main"
+        "Scenarios/localhost/tla/EAM/Once/merge/main/dist/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/merge/main/dist/index.mjs"
       ],
       "ior:esm:/tla.EAM.Once.modules[main]": [
-        "Scenarios/localhost/tla/EAM/Once/modules/main"
+        "Scenarios/localhost/tla/EAM/Once/modules/main/dist/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/modules/main/dist/index.mjs"
       ],
       "ior:esm:/tla.EAM.Once.server[main]": [
-        "Scenarios/localhost/tla/EAM/Once/server/main"
+        "Scenarios/localhost/tla/EAM/Once/server/main/index.js"
       ],
       "ior:esm:/tla.EAM.Once.ts[main]": [
-        "Scenarios/localhost/tla/EAM/Once/ts/main"
+        "Scenarios/localhost/tla/EAM/Once/ts/main/index.js"
       ]
     }
   }
