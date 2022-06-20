@@ -100,7 +100,8 @@
     // ]
   },
   "include": [
-    "jest.config.js"
+    "jest.config.js",
+    "Scenarios/localhost"
   ],
   "exclude": [
     "**/test/**/*",
