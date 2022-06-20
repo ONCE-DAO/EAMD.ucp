@@ -2,11 +2,32 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "ior:esm:/tla.EAM.Once.ts[main]": [
-        "Scenarios/localhost/tla/EAM/Once/ts"
+      "ior:esm:/tla.EAM.Thinglish.onceTSServerPlugin[main]": [
+        "Scenarios/localhost/tla/EAM/Thinglish/onceTSServerPlugin/main"
+      ],
+      "ior:esm:/tla.EAM.Thinglish.thinglish[main]": [
+        "Scenarios/localhost/tla/EAM/Thinglish/thinglish/main"
+      ],
+      "ior:esm:/tla.EAM.Thinglish.transformer[merge]": [
+        "Scenarios/localhost/tla/EAM/Thinglish/transformer/merge"
+      ],
+      "ior:esm:/tla.EAM.Once.browser[main]": [
+        "Scenarios/localhost/tla/EAM/Once/browser/main"
+      ],
+      "ior:esm:/tla.EAM.Once.loader[main]": [
+        "Scenarios/localhost/tla/EAM/Once/loader/main"
       ],
       "ior:esm:/tla.EAM.Once.merge[main]": [
-        "Scenarios/localhost/tla/EAM/Once/merge"
+        "Scenarios/localhost/tla/EAM/Once/merge/main"
+      ],
+      "ior:esm:/tla.EAM.Once.modules[main]": [
+        "Scenarios/localhost/tla/EAM/Once/modules/main"
+      ],
+      "ior:esm:/tla.EAM.Once.server[main]": [
+        "Scenarios/localhost/tla/EAM/Once/server/main"
+      ],
+      "ior:esm:/tla.EAM.Once.ts[main]": [
+        "Scenarios/localhost/tla/EAM/Once/ts/main"
       ]
     }
   }
