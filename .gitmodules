@@ -1,21 +1,21 @@
 [submodule "thinglish@main"]
-	path = Components/tla/EAM/Thinglish/Thinglish/thinglish@main
+	path = Components/tla/EAM/Thinglish/thinglish/thinglish@main
 	url = https://github.com/ONCE-DAO/thinglish.git
 	branch = main
 [submodule "thinglish.transformer@merge"]
-	path = Components/tla/EAM/Thinglish/Transformer/thinglish.transformer@merge
+	path = Components/tla/EAM/Thinglish/transformer/thinglish.transformer@merge
 	url = https://github.com/ONCE-DAO/thinglish.transformer.git
 	branch = merge
 [submodule "once.modules@main"]
-	path = Components/tla/EAM/Once/Modules/once.modules@main
+	path = Components/tla/EAM/Once/modules/once.modules@main
 	url = https://github.com/ONCE-DAO/once.modules.git
 	branch = main
 [submodule "once.ts@main"]
-	path = Components/tla/EAM/Once/TS/once.ts@main
+	path = Components/tla/EAM/Once/ts/once.ts@main
 	url = https://github.com/ONCE-DAO/once.ts.git
 	branch = main
 [submodule "once.browser@main"]
-	path = Components/tla/EAM/Once/Browser/once.browser@main
+	path = Components/tla/EAM/Once/browser/once.browser@main
 	url = https://github.com/ONCE-DAO/once.browser.git
 	branch = main
 [submodule "once.cli@main"]
@@ -23,15 +23,15 @@
 	url = https://github.com/ONCE-DAO/once.cli.git
 	branch = main
 [submodule "once.server@main"]
-	path = Components/tla/EAM/Once/Server/once.server@main
+	path = Components/tla/EAM/Once/server/once.server@main
 	url = https://github.com/ONCE-DAO/once.server.git
 	branch = main
 [submodule "once.loader@main"]
-	path = Components/tla/EAM/Once/Loader/once.loader@main
+	path = Components/tla/EAM/Once/loader/once.loader@main
 	url = https://github.com/ONCE-DAO/once.loader.git
 	branch = main
 [submodule "once.merge@main"]
-	path = Components/tla/EAM/Once/Merge/once.merge@main
+	path = Components/tla/EAM/Once/merge/once.merge@main
 	url = https://github.com/ONCE-DAO/once.merge.git
 	branch = main
 [submodule "3rdParty/ts-jest"]
@@ -39,6 +39,6 @@
 	url = https://github.com/ONCE-DAO/ts-jest.git
 	branch = main
 [submodule "Components/tla/EAM/Thinglish/dev/OnceTSServerPlugin@main"]
-	path = Components/tla/EAM/Thinglish/OnceTSServerPlugin/OnceTSServerPlugin@main
+	path = Components/tla/EAM/Thinglish/onceTSServerPlugin/OnceTSServerPlugin@main
 	url = https://github.com/ONCE-DAO/TSServerPlugin.git
 	branch = main

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "ior:esm:/tla.EAM.Once.ts[main]": [
+        "Scenarios/localhost/tla/EAM/Once/ts"
+      ],
+      "ior:esm:/tla.EAM.Once.merge[main]": [
+        "Scenarios/localhost/tla/EAM/Once/merge"
+      ]
+    }
+  }
+}
