@@ -2,8 +2,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "ior:esm:/tla.EAM.Thinglish.onceTSServerPlugin[main]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/onceTSServerPlugin/main/dist/index.js"
+      "ior:esm:/tla.EAM.Thinglish.OnceTSServerPlugin[main]": [
+        "Scenarios/localhost/tla/EAM/Thinglish/OnceTSServerPlugin/main/dist/index.js"
       ],
       "ior:esm:/tla.EAM.Thinglish.Transformer[merge]": [
         "Scenarios/localhost/tla/EAM/Thinglish/Transformer/merge/dist/main.js"
