@@ -2,36 +2,29 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "ior:esm:/tla.EAM.Thinglish.OnceTSServerPlugin[main]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/OnceTSServerPlugin/main/dist/index.js"
-      ],
       "ior:esm:/tla.EAM.Thinglish.Transformer[merge]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/Transformer/merge/dist/main.js"
+        "Scenarios/localhost/tla/EAM/Thinglish/Transformer/merge/main.js"
       ],
-      "ior:esm:/tla.EAM.Thinglish[main]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/main/dist/index.d.mts",
-        "Scenarios/localhost/tla/EAM/Thinglish/main/dist/index.mjs"
+      "ior:esm:/tla.EAM.Thinglish[dev]": [
+        "Scenarios/localhost/tla/EAM/Thinglish/dev/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Thinglish/dev/index.mjs"
       ],
-      "ior:esm:/tla.EAM.Once.Browser[main]": [
-        "Scenarios/localhost/tla/EAM/Once/Browser/main/src/OnceServer.mts"
+      "ior:esm:/tla.EAM.Once.Browser[dev]": [
+        "Scenarios/localhost/tla/EAM/Once/Browser/dev/src/OnceServer.mts"
       ],
-      "ior:esm:/tla.EAM.Once.Loader[main]": [
-        "Scenarios/localhost/tla/EAM/Once/Loader/main/dist/index.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Loader/main/dist/index.mjs"
+      "ior:esm:/tla.EAM.Once.Loader[dev]": [
+        "Scenarios/localhost/tla/EAM/Once/Loader/dev/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/Loader/dev/index.mjs"
       ],
-      "ior:esm:/tla.EAM.Once.Merge[main]": [
-        "Scenarios/localhost/tla/EAM/Once/Merge/main/dist/index.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Merge/main/dist/index.mjs"
+      "ior:esm:/tla.EAM.Once.Modules[dev]": [
+        "Scenarios/localhost/tla/EAM/Once/Modules/dev/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/Modules/dev/index.mjs"
       ],
-      "ior:esm:/tla.EAM.Once.Modules[main]": [
-        "Scenarios/localhost/tla/EAM/Once/Modules/main/dist/index.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Modules/main/dist/index.mjs"
+      "ior:esm:/tla.EAM.Once.Server[dev]": [
+        "Scenarios/localhost/tla/EAM/Once/Server/dev/index.js"
       ],
-      "ior:esm:/tla.EAM.Once.Server[main]": [
-        "Scenarios/localhost/tla/EAM/Once/Server/main/index.js"
-      ],
-      "ior:esm:/tla.EAM.Once[main]": [
-        "Scenarios/localhost/tla/EAM/Once/main/index.js"
+      "ior:esm:/tla.EAM.Once[dev]": [
+        "Scenarios/localhost/tla/EAM/Once/dev/index.js"
       ]
     }
   }

@@ -180,3 +180,5 @@ jspm_packages
 3rdParty/zod/.eslintcache
 3rdParty/zod/workspace.code-workspace
 3rdParty/zod/.netlify
+
+tsconfig.build.json
