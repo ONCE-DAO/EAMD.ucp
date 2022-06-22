@@ -34,6 +34,8 @@
             "runtimeArgs": [
                 "--experimental-vm-modules",
                 "--inspect-brk",
+                "--loader",
+                "./Scenarios/localhost/tla/EAM/Once/Merge/main/dist/2_systems/Once/OnceNodeImportLoader.class.mjs",
                 "${workspaceRoot}/node_modules/jest/bin/jest.js",
                 "--coverage=false",
                 "--runInBand",
