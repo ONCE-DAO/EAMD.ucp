@@ -2,7 +2,7 @@
   "name": "eamd.ucp",
   "version": "1.0.0",
   "description": "",
-  "main": "./Scenarios/localhost/tla/EAM/Once/main/2_systems/Once.class.mjs",
+  "main": "./Scenarios/localhost/tla/EAM/Once/dev/2_systems/Once.class.mjs",
   "type": "module",
   "scripts": {
     "jest:clearCache": "jest --clearCache",
@@ -11,14 +11,14 @@
     "prepare:reinstall": "npm i -D ./3rdParty/ts-jest",
     "prepare:script": "npx ts-node-esm Components/tla/EAM/Once/Modules/once.modules@main/src/1_infrastructure/Prepare.script.mts",
     "prepare": "npm-run-all prepare:clean prepare:submodules prepare:script prepare:reinstall build",
-    "dev": "nodemon --loader ./Scenarios/localhost/tla/EAM/Once/ts/main/2_systems/Once.class.mjs .",
-    "start": "node --loader ./Scenarios/localhost/tla/EAM/Once/main/2_systems/Once.class.mjs .",
+    "dev": "nodemon --loader ./Scenarios/localhost/tla/EAM/Once/dev/2_systems/Once.class.mjs .",
+    "start": "node --loader ./Scenarios/localhost/tla/EAM/Once/dev/2_systems/Once.class.mjs .",
     "cleanTest": "jest --clearCache && cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
     "build": "npx ts-node-esm  Components/tla/EAM/Once/Modules/once.modules@dev/src/1_infrastructure/Build.script.mts",
     "updateSubmodules":"npx ts-node-esm Components/tla/EAM/Once/Modules/once.modules@main/src/1_infrastructure/UpdateSubmodules.script.mts",
     "fullBuild": "rm -rf Scenarios/localhost/tla; npx ts-node-esm Components/tla/EAM/Once/Modules/once.modules@main/src/1_infrastructure/Build.script.mts",
-    "watch": "cross-env WATCH=true npx ts-node-esm Components/tla/EAM/Once/Modules/once.modules@main/src/1_infrastructure/Build.script.mts"
+    "watch": "cross-env WATCH=true npx ts-node-esm Components/tla/EAM/Once/Modules/once.modules@dev/src/1_infrastructure/Build.script.mts"
   },
   "repository": {
     "type": "git",
