@@ -95,10 +95,11 @@
   },
   "include": [
     "jest.config.js",
-    "Scenarios/localhost"
+    "**/test/**/*",
+    "Scenarios/localhost",
   ],
   "exclude": [
-    "**/test/**/*",
-    "node_modules"
+    // "**/test/**/*",
+    "node_modules",
   ]
 }
