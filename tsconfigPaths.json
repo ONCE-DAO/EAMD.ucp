@@ -13,7 +13,8 @@
         "Scenarios/localhost/tla/EAM/Once/Browser/dev/src/OnceServer.mts"
       ],
       "ior:esm:/tla.EAM.Once[dev]": [
-        "Scenarios/localhost/tla/EAM/Once/dev/index.js"
+        "Scenarios/localhost/tla/EAM/Once/dev/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/dev/index.mjs"
       ]
     }
   }
