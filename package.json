@@ -5,6 +5,7 @@
   "main": "./Scenarios/localhost/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs",
   "type": "module",
   "scripts": {
+    "tempBuild":"npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Typescript.script.mts",
     "jest:clearCache": "jest --clearCache",
     "prepare:clean": "rimraf 3rdParty/ts-jest",
     "prepare:submodules": "git submodule update --init --remote --recursive",

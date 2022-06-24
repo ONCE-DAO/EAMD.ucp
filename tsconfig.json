@@ -1,10 +1,10 @@
 {
   "extends": "./tsconfig.scripts.json",
   "compilerOptions": {
-    "plugins": [
-      {
-        "transform": "./Scenarios/localhost/tla/EAM/Thinglish/Transformer/merge/3_services/transformer.cjs"
-      }
-    ]
+    // "plugins": [
+    //   {
+    //     "transform": "./Scenarios/localhost/tla/EAM/Thinglish/Transformer/merge/3_services/transformer.cjs"
+    //   }
+    // ]
   }
 }

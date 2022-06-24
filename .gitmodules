@@ -23,7 +23,7 @@
 	url = https://github.com/ONCE-DAO/once.cli.git
 	branch = main
 [submodule "once.server@main"]
-	path = 3rdParty/Once-Server/once.server@dev
+	path = Components/tla/EAM/Once/Server/once.server@dev
 	url = https://github.com/ONCE-DAO/once.server.git
 	branch = dev
 [submodule "once.loader@main"]
@@ -31,7 +31,7 @@
 	url = https://github.com/ONCE-DAO/once.loader.git
 	branch = dev
 [submodule "once.merge@main"]
-	path = 3rdParty/Once-Merge/once.merge@main
+	path = 3rdParty/Merge/once.merge@main
 	url = https://github.com/ONCE-DAO/once.merge.git
 	branch = main
 [submodule "3rdParty/ts-jest"]
