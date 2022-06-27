@@ -12,12 +12,13 @@ export default {
   globals: {
     "ts-jest": {
       useESM: true,
+      tsconfig: 'tsconfigJest.json',
     },
   },
   transform: {
     ".m?ts": "ts-jest",
   },
-  resolver: "ts-jest-resolver",
+  resolver: "./Scenarios/localhost/tla/EAM/Once/dev/1_infrastructure/jestResolver.cjs",
   testRegex: "\\.(test)\\.m?ts$",
   moduleFileExtensions: ["js", "mjs", "mts"],
   extensionsToTreatAsEsm: [".mts"],
