@@ -19,6 +19,10 @@
       "ior:esm:/tla.EAM.Once[dev]": [
         "Scenarios/localhost/webroot/tla/EAM/Once/dev/index.d.mts",
         "Scenarios/localhost/webroot/tla/EAM/Once/dev/index.mjs"
+      ],
+      "ior:esm:/tla.EAM.Store[main]": [
+        "Scenarios/localhost/webroot/tla/EAM/Store/main/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/Store/main/index.mjs"
       ]
     }
   }
