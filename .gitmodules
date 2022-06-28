@@ -42,3 +42,7 @@
 	path = 3rdParty/OnceTSServerPlugin/OnceTSServerPlugin@main
 	url = https://github.com/ONCE-DAO/TSServerPlugin.git
 	branch = main
+[submodule "Store@main"]
+	path = Components/tla/EAM/Store/store@main
+	url = git@github.com:ONCE-DAO/Store.git
+	branch = main
