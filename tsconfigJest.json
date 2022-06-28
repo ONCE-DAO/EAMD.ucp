@@ -3,7 +3,7 @@
   "compilerOptions": {
     "plugins": [
       {
-        "transform": "./Scenarios/localhost/tla/EAM/Thinglish/Transformer/merge/3_services/transformer.cjs"
+        "transform": "./Scenarios/localhost/webroot/tla/EAM/Thinglish/Transformer/merge/3_services/transformer.cjs"
       }
     ]
   }
