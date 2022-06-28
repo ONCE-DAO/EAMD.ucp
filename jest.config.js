@@ -3,12 +3,16 @@
  * https://jestjs.io/docs/configuration
  */
 
+// Start once as Loader
+import { OnceKernel } from "./Scenarios/localhost/tla/EAM/Once/dev/index.mjs";
+await OnceKernel.start();
+
 export default {
   clearMocks: true,
   collectCoverage: true,
   coverageDirectory: "coverage",
   coverageProvider: "v8",
-
+  "verbose": true,
   globals: {
     "ts-jest": {
       useESM: true,
