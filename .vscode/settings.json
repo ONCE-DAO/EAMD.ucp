@@ -4,6 +4,7 @@
         "onStartup": []
     },
     "cSpell.words": [
+        "middie",
         "Thinglish"
     ],
     "typescript.tsdk": "node_modules/typescript/lib",
