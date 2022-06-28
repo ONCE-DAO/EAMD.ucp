@@ -4,7 +4,7 @@
  */
 
 // Start once as Loader
-import { OnceKernel } from "./Scenarios/localhost/tla/EAM/Once/dev/index.mjs";
+import { OnceKernel } from "./Scenarios/localhost/webroot/tla/EAM/Once/dev/index.mjs";
 await OnceKernel.start();
 
 export default {
@@ -22,7 +22,7 @@ export default {
   transform: {
     ".m?ts": "ts-jest",
   },
-  resolver: "./Scenarios/localhost/tla/EAM/Once/dev/1_infrastructure/jestResolver.cjs",
+  resolver: "./Scenarios/localhost/webroot/tla/EAM/Once/dev/1_infrastructure/jestResolver.cjs",
   testRegex: "\\.(test)\\.m?ts$",
   moduleFileExtensions: ["js", "mjs", "mts"],
   extensionsToTreatAsEsm: [".mts"],
