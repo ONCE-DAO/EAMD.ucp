@@ -2,14 +2,6 @@
 	path = Components/tla/EAM/Thinglish/Transformer/thinglish.transformer@merge
 	url = https://github.com/ONCE-DAO/thinglish.transformer.git
 	branch = merge
-[submodule "once.ts@main"]
-	path = Components/tla/EAM/Once/once@dev
-	url = https://github.com/ONCE-DAO/once.ts.git
-	branch = dev
-[submodule "once.server@main"]
-	path = Components/tla/EAM/Once/Server/once.server@dev
-	url = https://github.com/ONCE-DAO/once.server.git
-	branch = dev
 [submodule "3rdParty/ts-jest"]
 	path = 3rdParty/ts-jest
 	url = https://github.com/ONCE-DAO/ts-jest.git
