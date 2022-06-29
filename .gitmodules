@@ -1,48 +1,16 @@
-[submodule "thinglish@main"]
-	path = Components/tla/EAM/Thinglish/thinglish@dev
-	url = https://github.com/ONCE-DAO/thinglish.git
-	branch = dev
 [submodule "thinglish.transformer@merge"]
 	path = Components/tla/EAM/Thinglish/Transformer/thinglish.transformer@merge
 	url = https://github.com/ONCE-DAO/thinglish.transformer.git
 	branch = merge
-[submodule "once.modules@main"]
-	path = 3rdParty/Once-Modules/once.modules@dev
-	url = https://github.com/ONCE-DAO/once.modules.git
-	branch = dev
 [submodule "once.ts@main"]
 	path = Components/tla/EAM/Once/once@dev
 	url = https://github.com/ONCE-DAO/once.ts.git
 	branch = dev
-[submodule "once.browser@main"]
-	path = Components/tla/EAM/Once/Browser/once.browser@dev
-	url = https://github.com/ONCE-DAO/once.browser.git
-	branch = dev
-[submodule "once.cli@main"]
-	path = Components/tla/EAM/Once.Cli/once.cli@main
-	url = https://github.com/ONCE-DAO/once.cli.git
-	branch = main
 [submodule "once.server@main"]
 	path = Components/tla/EAM/Once/Server/once.server@dev
 	url = https://github.com/ONCE-DAO/once.server.git
 	branch = dev
-[submodule "once.loader@main"]
-	path = 3rdParty/OnceLoader/once.loader@dev
-	url = https://github.com/ONCE-DAO/once.loader.git
-	branch = dev
-[submodule "once.merge@main"]
-	path = 3rdParty/Merge/once.merge@main
-	url = https://github.com/ONCE-DAO/once.merge.git
-	branch = main
 [submodule "3rdParty/ts-jest"]
 	path = 3rdParty/ts-jest
 	url = https://github.com/ONCE-DAO/ts-jest.git
-	branch = main
-[submodule "Components/tla/EAM/Thinglish/dev/OnceTSServerPlugin@main"]
-	path = 3rdParty/OnceTSServerPlugin/OnceTSServerPlugin@main
-	url = https://github.com/ONCE-DAO/TSServerPlugin.git
-	branch = main
-[submodule "Store@main"]
-	path = Components/tla/EAM/Store/store@main
-	url = https://github.com/ONCE-DAO/Store.git
 	branch = main
