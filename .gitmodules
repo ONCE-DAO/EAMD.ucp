@@ -50,3 +50,7 @@
 	path = Components/tla/EAM/EventService/eventService@main
 	url = https://github.com/ONCE-DAO/EventService.git
 	branch = main
+[submodule "ucpComponent@main"]
+	path = Components/tla/EAM/UcpComponent/ucpComponent@main
+	url = https://github.com/ONCE-DAO/ucpComponent.git
+	branch = main
