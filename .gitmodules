@@ -6,3 +6,11 @@
 	path = 3rdParty/ts-jest
 	url = https://github.com/ONCE-DAO/ts-jest.git
 	branch = main
+[submodule "once@build"]
+	path = Components/tla/EAM/Once/once@build
+	url = https://github.com/ONCE-DAO/once.ts.git
+	branch = build
+[submodule "server@dev"]
+	path = Components/tla/EAM/Once/Server/server@dev
+	url = https://github.com/ONCE-DAO/once.server.git
+	branch = dev
