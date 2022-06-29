@@ -46,3 +46,7 @@
 	path = Components/tla/EAM/Store/store@main
 	url = https://github.com/ONCE-DAO/Store.git
 	branch = main
+[submodule "EventService@main"]
+	path = Components/tla/EAM/EventService/eventService@main
+	url = https://github.com/ONCE-DAO/EventService.git
+	branch = main
