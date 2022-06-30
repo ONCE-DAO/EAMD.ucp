@@ -17,7 +17,7 @@
     "dev": "exit 1 && nodemon --loader ./Scenarios/localhost/webroot/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs .",
     "start": "exit 1 && node --loader ./Scenarios/localhost/webroot/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs .",
     "cleanTest": "jest --clearCache && cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
