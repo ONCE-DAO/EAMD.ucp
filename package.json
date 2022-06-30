@@ -5,7 +5,9 @@
   "main": "./Scenarios/localhost/webroot/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs",
   "type": "module",
   "scripts": {
+    
     "newBuild": "npx ts-node-esm --project tsconfig.newScripts.json Components/tla/EAM/Once/once@build/src/1_infrastructure/newBuild.script.mts",
+    "newBuild2": "cross-env SCENARIO_DOMAIN=de.wo-da.prod npm run newBuild",
     "tempBuild": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Typescript.script.mts",
     "tempBuild:full": "cross-env fullBuild=true ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Typescript.script.mts",
     "jest:clearCache": "jest --clearCache",
