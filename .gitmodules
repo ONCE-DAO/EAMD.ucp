@@ -10,7 +10,3 @@
 	path = Components/tla/EAM/Thinglish/Transformer/transformer@build
 	url = https://github.com/ONCE-DAO/thinglish.transformer.git
 	branch = build
-[submodule "server@build"]
-	path = Components/tla/EAM/Once/Server/server@build
-	url = https://github.com/ONCE-DAO/once.server.git
-	branch = build
