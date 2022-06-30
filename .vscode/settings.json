@@ -8,5 +8,7 @@
         "Thinglish"
     ],
     "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
     "git.detectSubmodulesLimit": 1000
 }
