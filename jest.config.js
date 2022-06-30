@@ -3,8 +3,8 @@
  * https://jestjs.io/docs/configuration
  */
 
-// Start once as Loader
-import { OnceKernel } from "./Scenarios/localhost/webroot/tla/EAM/Once/dev/index.mjs";
+// Start once as Loader  
+import OnceKernel from "./Scenarios/localhost/webroot/tla/EAM/Once/dev/1_infrastructure/OnceKernel.class.mjs";
 await OnceKernel.start();
 
 export default {
