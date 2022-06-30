@@ -5,20 +5,36 @@
       "ior:esm:/tla.EAM.Thinglish.Transformer[merge]": [
         "Scenarios/localhost/webroot/tla/EAM/Thinglish/Transformer/merge/main.js"
       ],
-      "ior:esm:/tla.EAM.Thinglish[dev]": [
-        "Scenarios/localhost/webroot/tla/EAM/Thinglish/dev/index.d.mts",
-        "Scenarios/localhost/webroot/tla/EAM/Thinglish/dev/index.mjs"
+      "ior:esm:/tla.EAM.EventService[main]": [
+        "Scenarios/localhost/webroot/tla/EAM/EventService/main/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/EventService/main/index.mjs"
       ],
       "ior:esm:/tla.EAM.Once.Browser[dev]": [
         "Scenarios/localhost/webroot/tla/EAM/Once/Browser/dev/src/OnceServer.mts"
+      ],
+      "ior:esm:/tla.EAM.Once[dev]": [
+        "Scenarios/localhost/webroot/tla/EAM/Once/dev/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/Once/dev/index.mjs"
+      ],
+      "ior:esm:/tla.EAM.Once.Server.OnceWebserver[main]": [
+        "Scenarios/localhost/webroot/tla/EAM/Once/Server/OnceWebserver/main/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/Once/Server/OnceWebserver/main/index.mjs"
       ],
       "ior:esm:/tla.EAM.Once.Server[dev]": [
         "Scenarios/localhost/webroot/tla/EAM/Once/Server/dev/index.d.mts",
         "Scenarios/localhost/webroot/tla/EAM/Once/Server/dev/index.mjs"
       ],
-      "ior:esm:/tla.EAM.Once[dev]": [
-        "Scenarios/localhost/webroot/tla/EAM/Once/dev/index.d.mts",
-        "Scenarios/localhost/webroot/tla/EAM/Once/dev/index.mjs"
+      "ior:esm:/tla.EAM.Store[main]": [
+        "Scenarios/localhost/webroot/tla/EAM/Store/main/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/Store/main/index.mjs"
+      ],
+      "ior:esm:/tla.EAM.Thinglish[dev]": [
+        "Scenarios/localhost/webroot/tla/EAM/Thinglish/dev/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/Thinglish/dev/index.mjs"
+      ],
+      "ior:esm:/tla.EAM.UcpComponent[main]": [
+        "Scenarios/localhost/webroot/tla/EAM/UcpComponent/main/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/UcpComponent/main/index.mjs"
       ]
     }
   }

@@ -54,3 +54,7 @@
 	path = Components/tla/EAM/UcpComponent/ucpComponent@main
 	url = https://github.com/ONCE-DAO/ucpComponent.git
 	branch = main
+[submodule "webserver@main"]
+	path = Components/tla/EAM/Once/Server/Webserver/webserver@main
+	url = https://github.com/ONCE-DAO/Webserver.git
+	branch = main
