@@ -10,3 +10,27 @@
 	path = Components/tla/EAM/Thinglish/Transformer/transformer@build
 	url = https://github.com/ONCE-DAO/thinglish.transformer.git
 	branch = build
+[submodule "ucpComponent@build"]
+	path = Components/tla/EAM/Once/UcpComponent/ucpComponent@build
+	url = https://github.com/ONCE-DAO/ucpComponent.git
+	branch = build
+[submodule "Store@build"]
+	path = Components/tla/EAM/Once/Store/Store@build
+	url = https://github.com/ONCE-DAO/Store.git
+	branch = build
+[submodule "EventService@build"]
+	path = Components/tla/EAM/Once/EventService/EventService@build
+	url = https://github.com/ONCE-DAO/EventService.git
+	branch = build
+[submodule "Once@dev-merge"]
+	path = Components/tla/EAM/Once/Once@dev-merge
+	url = https://github.com/ONCE-DAO/once.ts.git
+	branch = dev-merge
+[submodule "Server@build"]
+	path = Components/tla/EAM/Once/Server/Server@build
+	url = https://github.com/ONCE-DAO/once.server.git
+	branch = build
+[submodule "WebServer@build"]
+	path = Components/tla/EAM/Once/Server/WebServer/WebServer@build
+	url = https://github.com/ONCE-DAO/Webserver.git
+	branch = build
