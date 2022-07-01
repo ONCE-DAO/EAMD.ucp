@@ -2,9 +2,10 @@
   "name": "eamd.ucp",
   "version": "1.0.0",
   "description": "",
-  "main": "./Scenarios/localhost/webroot/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs",
+  "main": "./Scenarios/localhost/tla/EAM/Once/build/2_systems/Once/Once.class.mjs",
   "type": "module",
   "scripts": {
+    "try": "npx ts-node-esm --project tsconfig.newScripts.json Components/tla/EAM/Once/once@build/src/1_infrastructure/TryOut.script.mts",
     "build": "npx ts-node-esm --project tsconfig.newScripts.json Components/tla/EAM/Once/once@build/src/1_infrastructure/Build.script.mts",
     "build:prod.wo-da.de": "cross-env SCENARIO_DOMAIN=de.wo-da.prod npm run build",
     "build:test.wo-da.de": "cross-env SCENARIO_DOMAIN=de.wo-da.test npm run build",
@@ -15,7 +16,7 @@
     "prepare:script": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Prepare.script.mts",
     "prepare": "npm-run-all prepare:clean prepare:submodules prepare:reinstall",
     "dev": "exit 1 && nodemon --loader ./Scenarios/localhost/webroot/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs .",
-    "start": "node --loader ./Scenarios/localhost/webroot/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs .",
+    "start": "node  .",
     "cleanTest": "jest --clearCache && cross-env NODE_OPTIONS=--experimental-vm-modules jest  --detectOpenHandles",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles"
   },
