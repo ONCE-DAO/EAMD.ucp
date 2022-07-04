@@ -19,7 +19,7 @@
 	url = https://github.com/ONCE-DAO/EventService.git
 	branch = build
 [submodule "Once@dev-merge"]
-	path = Components/tla/EAM/Once/Once@dev-merge
+	path = 3rdParty/Once@dev-merge
 	url = https://github.com/ONCE-DAO/once.ts.git
 	branch = dev-merge
 [submodule "Server@build"]

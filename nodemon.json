@@ -1,8 +1,6 @@
 {
-    "watch": "./Components",
-    "ignore": [
-        "dev/*"
-    ],
+    "watch": "./Scenarios",
+    "ignore": [],
     "delay": "2000ms",
     "ext": "js,mjs,json,html,webean.html"
 }

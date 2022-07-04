@@ -2,20 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "ior:esm:/tla.EAM.Thinglish.Transformer[build]": [
-        "Scenarios/localhost/tla/EAM/Thinglish/Transformer/build/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Thinglish/Transformer/build/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Thinglish/Transformer/build/UcpExport.mjs.map"
-      ],
       "ior:esm:/tla.EAM.Once.EventService[build]": [
         "Scenarios/localhost/tla/EAM/Once/EventService/build/UcpExport.d.mts",
         "Scenarios/localhost/tla/EAM/Once/EventService/build/UcpExport.mjs",
         "Scenarios/localhost/tla/EAM/Once/EventService/build/UcpExport.mjs.map"
-      ],
-      "ior:esm:/tla.EAM.Once[dev-merge]": [
-        "Scenarios/localhost/tla/EAM/Once/dev-merge/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/dev-merge/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Once/dev-merge/UcpExport.mjs.map"
       ],
       "ior:esm:/tla.EAM.Once.Server[build]": [
         "Scenarios/localhost/tla/EAM/Once/Server/build/UcpExport.d.mts",
