@@ -30,3 +30,7 @@
 	path = Components/tla/EAM/Once/Server/WebServer/WebServer@build
 	url = https://github.com/ONCE-DAO/Webserver.git
 	branch = build
+[submodule "transformer"]
+	path = 3rdParty/Transformer@mbuild
+	url = https://github.com/ONCE-DAO/thinglish.transformer.git
+	branch = build

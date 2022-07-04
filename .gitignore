@@ -49,3 +49,6 @@ jspm_packages/
 *.cjs.map
 
 Scenarios
+
+cert.pem
+key.pem
