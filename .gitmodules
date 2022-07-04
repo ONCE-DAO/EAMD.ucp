@@ -28,7 +28,7 @@
 	branch = build
 [submodule "WebServer@build"]
 	path = Components/tla/EAM/Once/Server/WebServer/WebServer@build
-	url = https://github.com/ONCE-DAO/Webserver.git
+	url = https://github.com/ONCE-DAO/WebServer.git
 	branch = build
 [submodule "transformer"]
 	path = 3rdParty/Transformer@mbuild

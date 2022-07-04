@@ -3,34 +3,34 @@
     "baseUrl": ".",
     "paths": {
       "ior:esm:/tla.EAM.Once.EventService[build]": [
-        "Scenarios/localhost/tla/EAM/Once/EventService/build/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/EventService/build/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Once/EventService/build/UcpExport.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/EventService/build/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/EventService/build/index.mjs",
+        "Scenarios/localhost/tla/EAM/Once/EventService/build/index.mjs.map"
       ],
       "ior:esm:/tla.EAM.Once.Server[build]": [
-        "Scenarios/localhost/tla/EAM/Once/Server/build/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Server/build/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Once/Server/build/UcpExport.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/Server/build/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/Server/build/index.mjs",
+        "Scenarios/localhost/tla/EAM/Once/Server/build/index.mjs.map"
       ],
       "ior:esm:/tla.EAM.Once.Server.WebServer[build]": [
-        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/UcpExport.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/index.mjs",
+        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/index.mjs.map"
       ],
       "ior:esm:/tla.EAM.Once.Store[build]": [
-        "Scenarios/localhost/tla/EAM/Once/Store/build/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Store/build/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Once/Store/build/UcpExport.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/Store/build/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/Store/build/index.mjs",
+        "Scenarios/localhost/tla/EAM/Once/Store/build/index.mjs.map"
       ],
       "ior:esm:/tla.EAM.Once.UcpComponent[build]": [
-        "Scenarios/localhost/tla/EAM/Once/UcpComponent/build/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/UcpComponent/build/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Once/UcpComponent/build/UcpExport.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/UcpComponent/build/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/UcpComponent/build/index.mjs",
+        "Scenarios/localhost/tla/EAM/Once/UcpComponent/build/index.mjs.map"
       ],
       "ior:esm:/tla.EAM.Once[build]": [
-        "Scenarios/localhost/tla/EAM/Once/build/UcpExport.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/build/UcpExport.mjs",
-        "Scenarios/localhost/tla/EAM/Once/build/UcpExport.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/build/index.d.mts",
+        "Scenarios/localhost/tla/EAM/Once/build/index.mjs",
+        "Scenarios/localhost/tla/EAM/Once/build/index.mjs.map"
       ]
     }
   }
