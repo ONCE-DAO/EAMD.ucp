@@ -107,7 +107,7 @@ dist
 .DS_Store
 
 Scenarios/localhost/**
-
+Scenarios/**
 
 
 
