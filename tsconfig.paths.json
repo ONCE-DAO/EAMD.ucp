@@ -2,20 +2,21 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "ior:esm:/io.jest.JestResolver[main]": [
+        "index.d.cts",
+        "index.cjs",
+        "index.cjs.map"
+      ],
       "ior:esm:/tla.EAM.Once.EventService[build]": [
         "Scenarios/localhost/tla/EAM/Once/EventService/build/index.d.mts",
         "Scenarios/localhost/tla/EAM/Once/EventService/build/index.mjs",
         "Scenarios/localhost/tla/EAM/Once/EventService/build/index.mjs.map"
       ],
       "ior:esm:/tla.EAM.Once.Server[build]": [
-        "Scenarios/localhost/tla/EAM/Once/Server/build/index.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Server/build/index.mjs",
-        "Scenarios/localhost/tla/EAM/Once/Server/build/index.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/Server/build/index.d.mts"
       ],
       "ior:esm:/tla.EAM.Once.Server.WebServer[build]": [
-        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/index.d.mts",
-        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/index.mjs",
-        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/index.mjs.map"
+        "Scenarios/localhost/tla/EAM/Once/Server/WebServer/build/index.d.mts"
       ],
       "ior:esm:/tla.EAM.Once.Store[build]": [
         "Scenarios/localhost/tla/EAM/Once/Store/build/index.d.mts",

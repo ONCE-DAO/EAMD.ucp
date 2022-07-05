@@ -33,15 +33,18 @@
             "name": "vscode-jest-tests.v2",
             "type": "node",
             "request": "launch",
-            "preLaunchTask": {
-                "type": "npm",
-                "script": "jest:clearCache"
+            "env": {
+                "NODE_ENV": "test"
             },
+            // "preLaunchTask": {
+            //     "type": "npm",
+            //     "script": "jest:clearCache"
+            // },
             "runtimeArgs": [
                 "--experimental-vm-modules",
                 "--inspect-brk",
-                // "--loader",
-                //  "./Scenarios/localhost/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs",
+                "--loader",
+                "./Scenarios/localhost/tla/EAM/Once/build/2_systems/Once/Once.class.mjs",
                 "${workspaceRoot}/node_modules/jest/bin/jest.js",
                 "--coverage=false",
                 "--runInBand",

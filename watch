@@ -1,0 +1,4 @@
+
+> eamd.ucp@1.0.0 build
+> npx ts-node-esm --project tsconfig.newScripts.json Components/tla/EAM/Once/once@build/src/1_infrastructure/Build/Build.script.mts
+

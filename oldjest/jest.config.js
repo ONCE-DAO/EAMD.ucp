@@ -4,7 +4,8 @@
  */
 
 // Start once as Loader
-import { OnceKernel } from "./Scenarios/localhost/webroot/tla/EAM/Once/dev/index.mjs";
+// TODO maybe replace by testnodeonce
+import  OnceKernel  from "./Scenarios/localhost/tla/EAM/Once/build/1_infrastructure/OnceKernel.class.mjs";
 await OnceKernel.start();
 
 export default {
@@ -16,13 +17,13 @@ export default {
   globals: {
     "ts-jest": {
       useESM: true,
-      tsconfig: 'tsconfigJest.json',
+      tsconfig: 'tsconfig.json',
     },
   },
   transform: {
     ".m?ts": "ts-jest",
   },
-  resolver: "./Scenarios/localhost/webroot/tla/EAM/Once/dev/1_infrastructure/jestResolver.cjs",
+  resolver: "./Scenarios/localhost/tla/EAM/Once/build/1_infrastructure/jestResolver.cjs",
   testRegex: "\\.(test)\\.m?ts$",
   moduleFileExtensions: ["js", "mjs", "mts"],
   extensionsToTreatAsEsm: [".mts"],

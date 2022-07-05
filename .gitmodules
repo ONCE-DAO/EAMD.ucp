@@ -34,3 +34,7 @@
 	path = 3rdParty/Transformer@mbuild
 	url = https://github.com/ONCE-DAO/thinglish.transformer.git
 	branch = build
+[submodule "JestResolver@main"]
+	path = Components/io/jest/JestResolver/JestResolver@main
+	url = https://github.com/ONCE-DAO/JestResolver.git
+	branch = main
