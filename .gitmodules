@@ -1,7 +1,3 @@
-[submodule "3rdParty/ts-jest"]
-	path = 3rdParty/ts-jest
-	url = https://github.com/ONCE-DAO/ts-jest.git
-	branch = main
 [submodule "once@build"]
 	path = Components/tla/EAM/Once/once@build
 	url = https://github.com/ONCE-DAO/once.ts.git
@@ -18,10 +14,6 @@
 	path = Components/tla/EAM/Once/EventService/EventService@build
 	url = https://github.com/ONCE-DAO/EventService.git
 	branch = build
-[submodule "Once@dev-merge"]
-	path = 3rdParty/Once@dev-merge
-	url = https://github.com/ONCE-DAO/once.ts.git
-	branch = dev-merge
 [submodule "Server@build"]
 	path = Components/tla/EAM/Once/Server/Server@build
 	url = https://github.com/ONCE-DAO/once.server.git
@@ -30,11 +22,11 @@
 	path = Components/tla/EAM/Once/Server/WebServer/WebServer@build
 	url = https://github.com/ONCE-DAO/WebServer.git
 	branch = build
-[submodule "transformer"]
-	path = 3rdParty/Transformer@mbuild
-	url = https://github.com/ONCE-DAO/thinglish.transformer.git
-	branch = build
 [submodule "JestResolver@main"]
 	path = Components/io/jest/JestResolver/JestResolver@main
 	url = https://github.com/ONCE-DAO/JestResolver.git
 	branch = main
+[submodule "Transformer@build"]
+	path = Components/tla/EAM/Thinglish/Transformer/Transformer@build
+	url = https://github.com/ONCE-DAO/Thinglish.Transformer.git
+	branch = build

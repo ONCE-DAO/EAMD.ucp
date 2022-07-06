@@ -1,25 +1,19 @@
 {
-  "extends": "./tsconfig.build.json",
+  "extends": "./tsconfig/tsconfig.build.json",
   "compilerOptions": {
     "module": "ESNEXT",
     "target": "ESNEXT",
-    "plugins": [],
     "noEmitOnError": false,
     "rootDir": "./Components",
     "strict": false
   },
   "include": [
-    "./Components/tla/EAM/Once/once@build/**/*",
-    "./Components/io/jest/JestResolver/JestResolver@main"
+    "./Components/**/*",
+    "./Scenarios",
   ],
   "exclude": [
-    // "node_modules",
-    // "dist",
-    // "test",
-    // "./3rdParty",
-    // "./Scenarios",
-    // "./**/*.d.*",
-    // "Scenarios/localhost/tla/EAM/Once/build/3_services/Once.interface.d.mts"
-    // "./**/*.ts",
+    "node_modules",
+    "dist",
+    "./Scenarios",
   ]
 }

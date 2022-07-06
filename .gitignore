@@ -49,6 +49,7 @@ jspm_packages/
 *.cjs.map
 
 Scenarios
+tsconfig.paths.json
 
 cert.pem
 key.pem
