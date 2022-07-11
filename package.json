@@ -5,7 +5,7 @@
   "main": "./Scenarios/localhost/webroot/tla/EAM/Once/dev/2_systems/Once/Once.class.mjs",
   "type": "module",
   "scripts": {
-    "tempBuild": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Typescript.script.mts",
+    "tempBuild": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Typescript.script.mts ; cp Components/tla/EAM/Once/once@dev/src/index.html Scenarios/localhost/webroot/tla/EAM/Once/dev/",
     "tempBuild:full": "cross-env fullBuild=true ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Typescript.script.mts",
     "jest:clearCache": "jest --clearCache",
     "prepare:clean": "rimraf 3rdParty/ts-jest",

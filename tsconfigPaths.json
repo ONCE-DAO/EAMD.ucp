@@ -10,7 +10,8 @@
         "Scenarios/localhost/webroot/tla/EAM/EventService/main/index.mjs"
       ],
       "ior:esm:/tla.EAM.Once.Browser[dev]": [
-        "Scenarios/localhost/webroot/tla/EAM/Once/Browser/dev/src/OnceServer.mts"
+        "Scenarios/localhost/webroot/tla/EAM/Once/Browser/dev/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/Once/Browser/dev/index.mjs"
       ],
       "ior:esm:/tla.EAM.Once[dev]": [
         "Scenarios/localhost/webroot/tla/EAM/Once/dev/index.d.mts",
