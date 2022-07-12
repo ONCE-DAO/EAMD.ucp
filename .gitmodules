@@ -58,3 +58,7 @@
 	path = Components/tla/EAM/Once/Server/Webserver/webserver@main
 	url = https://github.com/ONCE-DAO/Webserver.git
 	branch = main
+[submodule "PersistanceManager@main"]
+	path = Components/tla/EAM/UcpComponent/PersistanceManager/persistanceManager@main
+	url = https://github.com/ONCE-DAO/PersistenceManager.git
+	branch = main
