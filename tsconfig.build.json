@@ -93,23 +93,21 @@
     "skipDefaultLibCheck": true, /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
     "plugins": [
-      // {
-      //   "transform": "./3rdParty/Transformer@mbuild/dist/index.cjs",
-      //   // "transform": "./3rdParty/Transformer@mbuild/dist/index.cts",
-      //   // "tsConfig": "3rdParty/Transformer@mbuild/tsconfig.json",
-      //   "type": "program"
-      // },
+      {
+        "transform": "./Scenarios/localhost/tla/EAM/Thinglish/Transformer/build/3_services/transformer.cjs",
+        // "transform": "./3rdParty/Transformer@mbuild/dist/index.cts",
+        // "tsConfig": "3rdParty/Transformer@mbuild/tsconfig.json",
+        // "type": "program"
+      },
     ]
   },
-  "include": // will be overwritten by Component config
-  [
-    "Components/**/*",
-    "Scenarios/**/*"
-  ],
+  // "include": [
+  //   "Components/**/*",
+  //   "Scenarios/**/*"
+  // ],
   "exclude": [
-    "**/node_modules",
-    "**/test",
-    "Scenarios/**/*",
+    "node_modules",
+    "test",
     "**/index.default.mts"
   ]
 }

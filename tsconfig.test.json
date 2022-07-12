@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "module": "ESNEXT",
+    "target": "ESNEXT",
+    "noEmitOnError": false,
+    // "rootDir": "./",
+    // "rootDirs": [
+    //   "Components"
+    // ],
+    "strict": false,
+    "outDir": "testdist",
+    "noEmit": true,
+    "preserveWatchOutput": true,
+    "plugins": []
+  },
+  "include": [
+    "Components/**/test/**/*",
+    // "Scenarios"
+  ],
+  // "include": [
+  //   "Components/**/test/**/*.test.*",
+  // ],
+  "exclude": [
+    //   "**/node_modules",
+    //   "**/test",
+    "Scenarios",
+    "**/index.default.mts",
+    //   "**/*.d.*"
+  ]
+}
