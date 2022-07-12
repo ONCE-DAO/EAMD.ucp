@@ -33,6 +33,10 @@
         "Scenarios/localhost/webroot/tla/EAM/Thinglish/dev/index.d.mts",
         "Scenarios/localhost/webroot/tla/EAM/Thinglish/dev/index.mjs"
       ],
+      "ior:esm:/tla.EAM.UcpComponent.PersistanceManager[main]": [
+        "Scenarios/localhost/webroot/tla/EAM/UcpComponent/PersistanceManager/main/index.d.mts",
+        "Scenarios/localhost/webroot/tla/EAM/UcpComponent/PersistanceManager/main/index.mjs"
+      ],
       "ior:esm:/tla.EAM.UcpComponent[main]": [
         "Scenarios/localhost/webroot/tla/EAM/UcpComponent/main/index.d.mts",
         "Scenarios/localhost/webroot/tla/EAM/UcpComponent/main/index.mjs"

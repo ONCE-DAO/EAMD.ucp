@@ -20,7 +20,8 @@
     "build": "npx ts-node-esm --project tsconfig.scripts.json  Components/tla/EAM/Once/once@dev/src/1_infrastructure/Build.script.mts",
     "updateSubmodules": "npx ts-node-esm Components/tla/EAM/Once/once@dev/src/1_infrastructure/UpdateSubmodules.script.mts",
     "fullBuild": "rm -rf Scenarios/localhost/tla; npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Build.script.mts",
-    "watch": "cross-env WATCH=true npx ts-node-esm Components/tla/EAM/Once/once@dev/src/1_infrastructure/Build.script.mts"
+    "watch": "cross-env WATCH=true npx ts-node-esm Components/tla/EAM/Once/once@dev/src/1_infrastructure/Build.script.mts",
+    "buildStart": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@dev/src/1_infrastructure/Typescript.script.mts ; cp Components/tla/EAM/Once/once@dev/src/index.html Scenarios/localhost/webroot/tla/EAM/Once/dev/; npm run start"
   },
   "repository": {
     "type": "git",
