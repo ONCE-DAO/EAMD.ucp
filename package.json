@@ -7,7 +7,7 @@
   "scripts": {
     "prepare:submodules": "git submodule update --init --remote --recursive",
     "prepare:script": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@build/src/1_infrastructure/Build/Prepare.script.mts",
-    "prepare": "npm-run-all prepare:submodules prepare:script",
+    "prepare": "npm-run-all prepare:submodules prepare:script build",
     "build": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@build/src/1_infrastructure/Build/Build.script.mts",
     "build:clean": "rm -rf Scenarios && npm run build",
     "build:watch": "cross-env WATCH=true npm run build",
