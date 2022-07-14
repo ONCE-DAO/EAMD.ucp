@@ -16,7 +16,7 @@
   },
   "include": [
     "Components/**/test/**/*",
-    // "Scenarios"
+    "Scenarios"
   ],
   // "include": [
   //   "Components/**/test/**/*.test.*",

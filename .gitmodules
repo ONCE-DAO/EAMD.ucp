@@ -30,3 +30,7 @@
 	path = Components/tla/EAM/Thinglish/Transformer/Transformer@build
 	url = https://github.com/ONCE-DAO/Thinglish.Transformer.git
 	branch = build
+[submodule "zod@test-component"]
+	path = Components/dev/zod/zod@test-component
+	url = https://github.com/ONCE-DAO/zod.git
+	branch = test-component

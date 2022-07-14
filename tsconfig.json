@@ -3,23 +3,12 @@
   "compilerOptions": {
     "module": "ESNEXT",
     "target": "ESNEXT",
-    "noEmitOnError": false,
-    // "rootDir": "./",
-    // "rootDirs": [
-    //   "Components"
-    // ],
+    "noEmitOnError": true,
+    "noEmit": true,
     "strict": false,
     "preserveWatchOutput": true,
   },
-  // "include": [
-  //   "Components/**/*",
-  //   "Scenarios/**/*"
-  // ],
-  // "exclude": [
-  //   "**/node_modules",
-  //   "**/test",
-  //   "Scenarios/**/*",
-  //   "**/index.default.mts",
-  //   "**/*.d.*"
-  // ]
+  "include": [
+    "Components/**/*",
+  ],
 }
