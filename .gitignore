@@ -53,3 +53,4 @@ tsconfig.paths.json
 
 cert.pem
 key.pem
+tsconfig.build.paths.json
