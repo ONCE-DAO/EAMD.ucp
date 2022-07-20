@@ -10,6 +10,7 @@
     "prepare": "npm-run-all prepare:submodules prepare:script build",
     "build": "npx ts-node-esm --project tsconfig.scripts.json Components/tla/EAM/Once/once@build/src/1_infrastructure/Build/Build.script.mts",
     "build:clean": "rm -rf Scenarios && npm run build",
+    "build:clean:ignoreErrors": "rm -rf Scenarios && cross-env IGNORE_ERRORS=true npm run build",
     "build:watch": "cross-env WATCH=true npm run build",
     "build:prod.wo-da.de": "cross-env SCENARIO_DOMAIN=de.wo-da.prod npm run build",
     "build:test.wo-da.de": "cross-env SCENARIO_DOMAIN=de.wo-da.test npm run build",
