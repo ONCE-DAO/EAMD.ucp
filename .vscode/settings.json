@@ -4,12 +4,13 @@
         "onStartup": []
     },
     "cSpell.words": [
+        "Buildable",
+        "eamr",
         "middie",
         "Thinglish"
     ],
     "typescript.tsserver.log": "normal",
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-
     "git.detectSubmodulesLimit": 1000
 }
