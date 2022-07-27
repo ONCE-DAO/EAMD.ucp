@@ -5,7 +5,7 @@
     "target": "ESNEXT",
     "noEmitOnError": true,
     "noEmit": true,
-    "strict": false,
+    "strict": true,
     "preserveWatchOutput": true,
     "incremental": true,
     "experimentalDecorators": true, /* Enable experimental support for TC39 stage 2 draft decorators. */
