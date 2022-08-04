@@ -17,11 +17,6 @@
     "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
     "skipDefaultLibCheck": true, /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
-    "plugins": [
-      {
-        "transform": "./Scenarios/localhost/tla/EAM/Thinglish/Transformer/build/3_services/transformer.cjs",
-      },
-    ]
   },
   "exclude": [
     "node_modules",
